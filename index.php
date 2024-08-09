@@ -13,7 +13,7 @@
                 countdown--;
                 if (countdown < 0) {
                     clearInterval(countdownInterval);
-                    window.location.href = '/php/process.php?id=' + downloadId; // Redirect to download
+                    window.location.href = '/process.php?id=' + downloadId; // Redirect to download
                 }
             }, 1000);
         }
