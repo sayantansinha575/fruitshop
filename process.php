@@ -3,7 +3,7 @@ if (isset($_GET['id'])) {
     $fileId = $_GET['id'];
 
     // Define the path to the file or use a lookup to get the file
-    $filePath = './file/' . $fileId . '.txt';
+    $filePath = 'https://0fec905c-f435-4138-8774-61e7f299ad41.e1-us-cdp-2.choreoapps.dev/file/' . $fileId . '.txt';
 
     // Ensure the file exists
     if (file_exists($filePath)) {
