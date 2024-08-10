@@ -35,7 +35,7 @@
 
     <div class="img" style="margin-top: 10px;">
         <?php define('IMG_PATH', './file/') ?>
-        <img src="https://img.freepik.com/premium-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_1038396-47.jpg" alt="<?= htmlentities('img.jpg') ?>">
+        <img src="https://img.freepik.com/premium-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_1038396-47.jpg" alt="<?= htmlentities('flowerimg.jpg') ?>">
     </div>
 </body>
 
