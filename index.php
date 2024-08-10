@@ -13,7 +13,7 @@
                 countdown--;
                 if (countdown < 0) {
                     clearInterval(countdownInterval);
-                    window.location.href = '/process.php?id=' + downloadId; // Redirect to download
+                    window.location.href = '/php/process.php?id=' + downloadId; // Redirect to download
                 }
             }, 1000);
         }
@@ -31,6 +31,11 @@
     <button onclick="addToQueue(123)">Download File 123</button>
     <div id="countdown-container" style="display: none;">
         Download will start in <span id="countdown">5</span> seconds.
+    </div>
+
+    <div class="img" style="margin-top: 10px;">
+        <?php define('IMG_PATH', './file/') ?>
+        <img src="<?= IMG_PATH . 'img.jpg' ?>" alt="<?= htmlentities('img.jpg') ?>">
     </div>
 </body>
 
