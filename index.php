@@ -34,8 +34,9 @@
     </div>
 
     <div class="img" style="margin-top: 10px;">
+        <?php define('SITE_URL','https://0fec905c-f435-4138-8774-61e7f299ad41.e1-us-cdp-2.choreoapps.dev')?>
         <?php define('IMG_PATH', './file/') ?>
-        <img src="https://img.freepik.com/premium-photo/natures-beauty-captured-colorful-flower-close-up-generative-ai_1038396-47.jpg" alt="<?= htmlentities('flowerimg.jpg') ?>">
+        <img src="<?= SITE_URL.'img.jpg'?>" alt="<?= htmlentities('flowerimg.jpg') ?>">
     </div>
 </body>
 
