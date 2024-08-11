@@ -1,6 +1,7 @@
 <?php
 if (isset($_GET['id'])) {
     $fileId = $_GET['id'];
+    var_dump($fileId);die;
 
     // Define the path to the file or use a lookup to get the file
     // $filePath = './file/' . $fileId . '.txt';
